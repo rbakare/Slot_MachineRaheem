@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574BECC72256D33700123211 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 574BECC62256D33700123211 /* GameScene.sks */; };
 		57B8328C2256CFCD002A556D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B8328B2256CFCD002A556D /* AppDelegate.swift */; };
-		57B8328E2256CFCD002A556D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57B8328D2256CFCD002A556D /* GameScene.sks */; };
 		57B832902256CFCD002A556D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57B8328F2256CFCD002A556D /* Actions.sks */; };
 		57B832922256CFCD002A556D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B832912256CFCD002A556D /* GameScene.swift */; };
 		57B832942256CFCD002A556D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B832932256CFCD002A556D /* GameViewController.swift */; };
 		57B832972256CFCD002A556D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B832952256CFCD002A556D /* Main.storyboard */; };
 		57B832992256CFCE002A556D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B832982256CFCE002A556D /* Assets.xcassets */; };
 		57B8329C2256CFCE002A556D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B8329A2256CFCE002A556D /* LaunchScreen.storyboard */; };
+		57B832A42256D00D002A556D /* SlotmachineSp.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B832A32256D00D002A556D /* SlotmachineSp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		574BECC62256D33700123211 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../SlotMachineByIvan-master/SlotMachineByRaheem/GameScene.sks"; sourceTree = "<group>"; };
 		57B832882256CFCD002A556D /* Slot_MachineRaheem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slot_MachineRaheem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B8328B2256CFCD002A556D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57B8328D2256CFCD002A556D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		57B8328F2256CFCD002A556D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		57B832912256CFCD002A556D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		57B832932256CFCD002A556D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		57B832982256CFCE002A556D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B8329B2256CFCE002A556D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57B8329D2256CFCE002A556D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B832A32256D00D002A556D /* SlotmachineSp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlotmachineSp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,14 @@
 			isa = PBXGroup;
 			children = (
 				57B8328B2256CFCD002A556D /* AppDelegate.swift */,
-				57B8328D2256CFCD002A556D /* GameScene.sks */,
+				574BECC62256D33700123211 /* GameScene.sks */,
 				57B8328F2256CFCD002A556D /* Actions.sks */,
 				57B832912256CFCD002A556D /* GameScene.swift */,
 				57B832932256CFCD002A556D /* GameViewController.swift */,
 				57B832952256CFCD002A556D /* Main.storyboard */,
 				57B832982256CFCE002A556D /* Assets.xcassets */,
 				57B8329A2256CFCE002A556D /* LaunchScreen.storyboard */,
+				57B832A32256D00D002A556D /* SlotmachineSp.png */,
 				57B8329D2256CFCE002A556D /* Info.plist */,
 			);
 			path = Slot_MachineRaheem;
@@ -132,9 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B832972256CFCD002A556D /* Main.storyboard in Resources */,
-				57B8328E2256CFCD002A556D /* GameScene.sks in Resources */,
 				57B832992256CFCE002A556D /* Assets.xcassets in Resources */,
 				57B8329C2256CFCE002A556D /* LaunchScreen.storyboard in Resources */,
+				574BECC72256D33700123211 /* GameScene.sks in Resources */,
+				57B832A42256D00D002A556D /* SlotmachineSp.png in Resources */,
 				57B832902256CFCD002A556D /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
